@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Reconhecimento de voz</h1>
+      <div id="resultado"></div>
+      <button id="btnToggle">Ativar Reconhecimento de Fala</button>
+      <div id="sugestao">
+        Clique no botão para ativar o Reconhecimento de Fala e começar a falar.
+        <br /><br />
+        Dica 1: tente falar a palavra "redirecionar" e depois fale o link de um
+        site.
+        <br /><br />
+        Dica 2: tente falar a frase "modo noturno" para alterar a cor de fundo.
+        <br /><br />
+        Dica 3: tente falar a frase "modo diurno" para alterar a cor de fundo.
+      </div>
+      <div id="redirecionarDiv">
+        <label for="redirecionarInput"
+          >Para onde você quer ser redirecionado?</label
+        >
+        <input type="text" id="redirecionarInput" />
+        <button id="redirecionarBtn">Redirecionar</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
